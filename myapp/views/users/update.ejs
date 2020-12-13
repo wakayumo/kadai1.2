@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>登録情報の変更</title>
+  </head>
+  <body>
+    <h1>登録情報(ユーザ名、パスワード)変更</h1>
+    <form action="" method = "post" >
+      <div>
+        <label>ユーザ名：</label>
+        <input type="text" name="username"/>
+      </div>
+      <div>
+        <label>パスワード：</label>
+        <input type="password" name="password"/>
+      </div>
+      <div>
+        <input type="submit" value="登録情報の変更"/>
+        <%= error %>
+    </div>
+  </body>
+</html>

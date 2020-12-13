@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p><%= user.username %> ,Welcome to <%= title %></p>
+    <form>
+      <input type="button" value="新しく登録" onclick="location.href='http://localhost:3000/users/create'"/>
+    <input type="button" value="変更" onclick="location.href='http://localhost:3000/users/update'"/>
+    <input type="button" value="削除" onclick="location.href='http://localhost:3000/users/delete'"/>
+    </form>
+  </body>
+</html>
